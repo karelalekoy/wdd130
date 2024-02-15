@@ -67,6 +67,8 @@ nav {
     width: 390px;
 }
 
+
+
 .footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -130,4 +132,75 @@ a:hover {
 
 h2 {
     color: var(--accent2-color);
+}
+
+
+
+
+.img-contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr;
+    gap: 1px;
+}
+.img-contact h2 {
+    grid-column: 1/6;
+    text-align: center;
+    font-size: 50px;
+}
+
+.img-contact img {
+    width: 100%;
+    height: auto;
+    justify-self: center;
+    align-self: center;
+    display: block;
+}
+.img-contact figcaption {
+    text-align: center;
+    color: var(--accent1-color);
+    font-size: 22px;
+}
+
+.contact-us {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2em;
+}
+.contact-info {
+    font-size: 22px;
+}
+
+.contact-info h2 {
+    text-align:center;
+}
+
+form {
+    width: 470px ;
+    margin: 3rem auto;
+    padding: 4rem;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;    
+}
+
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    vertical-align:text-top;
+}
+
+button {
+    margin: 2rem auto;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: 5rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    width: 175px;
+    
+}
+button:hover {
+    background-color: var(--accent2-color);
 }
