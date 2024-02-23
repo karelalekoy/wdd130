@@ -98,8 +98,8 @@ a:hover {
 
 .hero h1 {
     position: absolute;
-    top: 630px;
-    width: 95.1%;
+    top: 550px;
+    width: 93.8%;
     text-align: center ;
     margin: 0%;
     border: 3px solid rgba(0,0,0,.1);
@@ -197,7 +197,7 @@ input[type="checkbox"] {
 
 button {
     margin: 2rem auto;
-    background-color: navy;
+    background-color: var(--primary-color);
     color: #fff;
     border: none;
     border-radius: 5rem;
@@ -207,10 +207,137 @@ button {
     
 }
 button:hover {
-    background-color: var(--accent2-color);
+    background-color: var(--accent1-color);
 }
 
 .help-us {
     text-align: center;
     font-size: 30px;
 }
+
+.trips {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+ .trips img {
+    justify-self: center;
+    align-self: center;
+    display: block;
+    width: 400px;
+ }
+
+ .trips p {
+    justify-self: center;
+    align-self: center;
+    display: block;
+    padding: 1rem;
+ }
+
+ .button {
+    display: flex;
+    justify-content: center; 
+}
+.button-container {
+    display: flex;
+    align-items: center;
+}
+
+.button-container h2 {
+    margin-right: auto;
+    padding: 2rem;
+}
+
+table {
+	width: 766.6666666666665px;
+	height: 144.00000000000003px;
+	border-color: #C0C0C0;
+	border-width: 1px;
+	border-style: solid;
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+}
+ 
+  th, td {
+    border: 1px solid #866161;
+    text-align: center;
+    padding: 8px;
+  }
+  th {
+    background-color: var(--accent1-color);
+  }
+
+  form {
+    width: 650px;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+    
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 1rem;
+}
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+label, input, button, select, textarea {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form label {
+    text-align: right;
+    padding-right: 1rem;
+}
+.form input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.form input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+.form button {
+    margin: 1rem auto;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    width: 175px;
+}
+.form button:hover {
+    background-color: var(--accent2-color);
+}
+
+.index {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+ .index img {
+    justify-self: center;
+    align-self: center;
+    display: block;
+ }
+
+ .index p {
+    justify-self: center;
+    align-self: center;
+    display: block;
+    padding: 1rem;
+ }
